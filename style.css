@@ -198,3 +198,43 @@ footer .contact-item svg {
     @media (max-width: 768px) {
       .top-video-section { height: 40vh; }
     }
+
+    .category { margin-bottom: 40px; }
+    .category h2 {
+      font-size: 26px;
+      font-weight: 700;
+      color: #000;
+      margin-bottom: 20px;
+      font-family: 'Poppins', sans-serif;
+    }
+    .product-card {
+      background: #f5f3e9;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      height: 100%;
+    }
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+    }
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .product-card .card-body {
+      padding: 15px;
+      text-align: center;
+    }
+    .product-card .card-body p {
+      font-size: 16px;
+      margin-bottom: 5px;
+      color: #000;
+    }
+    .product-card .price {
+      font-weight: 700;
+      color: #000;
+      font-size: 16px;
+    }
